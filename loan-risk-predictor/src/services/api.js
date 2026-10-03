@@ -1,5 +1,5 @@
 // All backend communication lives here. Change BASE_URL if your API runs elsewhere.
-export const BASE_URL = "https://loan-risk-predictor-8kve.onrender.com/predict";
+export const BASE_URL = "https://loan-risk-predictor-8kve.onrender.com";
 
 export class ApiError extends Error {
   constructor(message, { detail = "", fieldErrors = {} } = {}) {
